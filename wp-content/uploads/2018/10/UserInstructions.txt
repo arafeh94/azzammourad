@@ -1,0 +1,27 @@
+User manual
+
+1. The Main programs are:
+	•	Policy_Convert_XACML_to_SBA.php   – Converts XACML policy to SBA
+ 	•	Request_Convert_XACML_to_SBA.php  – Converts XACML request to SBA
+	•	SBA_Evaluation_Engine.php         – Evaluates a request against policy (SBA)
+	•	SBA_Analyzer.php                  – Analyzes policysets
+	
+2. XACML Policy file will be located in XACML directory under the name XACML_Policy.xml.
+
+3. Converted XACML policy to SBA will be written to SBA directory under the name SBA_Policy.txt.
+
+4. XACML Request file will be located in XACML directory under the name request.xml.
+
+5. Converted XACML request to SBA will be written to SBA directory under the name SBA_request.txt.
+
+6. Synthetic XACML Policies included ranging from 400 rules to 4000 rules.
+
+7. Index.htm page is included to run the Conversion, Evaluation and Analysis. 
+
+   Please run the application in the order they are listed on the index page.
+
+   Please make sure you have the correct directory structure and file names for input files
+
+   1. Run the Policy Converter
+   2. Run the Request Converter
+   3. Run either Policy Evaluation or Analysis
